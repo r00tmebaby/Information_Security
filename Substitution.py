@@ -45,9 +45,9 @@ class Substitution:
                     result += self.charTable()[newIndex]
         return result
 
-
 if __name__ == '__main__':
 
+    import textwrap
     plainText = "Mike Capel (born October 13, 1961) is a former Major League Baseball right-handed " \
            "pitcher who played for the Chicago Cubs, Milwaukee Brewers, and Houston Astros. " \
            "In 49 career games, Capel pitched 62.1 innings, struck out 43 batters, and had a career win–loss record of 3–4 with a 4.62 earned run average. " \
@@ -59,8 +59,9 @@ if __name__ == '__main__':
 
     obj = Substitution()
     encodedText = obj.encode(plainText)
-    print("Encoded text:", encodedText)
 
+    print('\033[91m'+"Encoded text:\n", textwrap.fill(encodedText, 200))
+    print("\n")
     decodedText = obj.decode(encodedText)
-    print("Decoded text:", decodedText)
+    print('\033[92m'+"Encoded text:\n", textwrap.fill(decodedText, 200))
 

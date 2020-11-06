@@ -69,7 +69,7 @@ class homophony:
 
 
 if __name__ == '__main__':
-
+    import textwrap
     plainText = "Mike Capel (born October 13, 1961) is a former Major League Baseball right-handed " \
            "pitcher who played for the Chicago Cubs, Milwaukee Brewers, and Houston Astros. " \
            "In 49 career games, Capel pitched 62.1 innings, struck out 43 batters, and had a career win–loss record of 3–4 with a 4.62 earned run average. " \
@@ -81,7 +81,7 @@ if __name__ == '__main__':
 
 
     encoded = homophony.encode(plainText)
-    print("Homophony Encoded Text: ", encoded)
-    print("Homophony Decoded Text: ", homophony.decode(encoded))
+    print('\033[91m'+"Encoded text:\n", textwrap.fill(encoded, 200))
+    print('\033[92m'+"Decoded text:\n", textwrap.fill(homophony.decode(encoded), 200))
 
 
