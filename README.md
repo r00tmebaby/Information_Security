@@ -18,7 +18,7 @@ The tests may become handy in some of my future projects so it's better to keep 
 <image src='https://i.gyazo.com/583cd932ae082aec3062ed1d41b66320.png'>
 
 
-<b>Vigenere cipher</b>
-Ref: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher
+<h2>Vigenere cipher</h2>
+<p>Ref: https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher</p>
 <image src='https://i.gyazo.com/0baeb40b8d3e3320c2ac1fedc23a277b.png'>
 
