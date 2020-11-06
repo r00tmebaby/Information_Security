@@ -3,8 +3,6 @@ Inspired by Information security an as part of my study, I decided to play a bit
 Here is s simple implementation example of RSA encoding and decoding
 
 Reference: https://www.youtube.com/watch?v=oOcTVTpUsPQ
-Referebce: https://crypto.stackexchange.com/questions/5889/calculating-rsa-private-exponent-when-given-public-exponent-and-the-modulus-fact
-
 """
 
 import random
