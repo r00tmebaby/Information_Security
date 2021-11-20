@@ -2,7 +2,7 @@
 Inspired by Information security an as part of my study, I decided to play a bit and better understand RSA encryption method
 Here is s simple implementation example of RSA encoding and decoding
 
-Reference: https://www.youtube.com/watch?v=oOcTVTpUsPQ
+Reference: https://www.youtube.com/watch?v=4zahvcJ9glg
 """
 
 import random
